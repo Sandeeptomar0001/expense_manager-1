@@ -1,11 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCDLKmP_Wbf1dyHscn_ZM73D73MjQzxu0Y",
-    authDomain: "firedb-1153f.firebaseapp.com",
-    databaseURL: "https://firedb-1153f-default-rtdb.firebaseio.com",
-    projectId: "firedb-1153f",
-    storageBucket: "firedb-1153f.appspot.com",
-    messagingSenderId: "125808768393",
-    appId: "1:125808768393:web:4b41de457c70c6f84b1d58"
+    // Firebase congiguration code
 };
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
